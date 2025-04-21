@@ -1,0 +1,14 @@
+[project]
+name = "py-api"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi>=0.115.12",
+    "py-commonlib",
+    "uvicorn>=0.34.2",
+]
+
+[tool.uv.sources]
+py-commonlib = { path = "../py-commonlib", editable = true }

@@ -1,0 +1,12 @@
+[project]
+name = "py-core"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "py-commonlib",
+]
+
+[tool.uv.sources]
+py-commonlib = { path = "../py-commonlib", editable = true }
